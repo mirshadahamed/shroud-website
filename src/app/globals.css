@@ -1441,3 +1441,39 @@ nextjs-portal,
     padding-top: 155px;
   }
 }
+
+
+/* Shroud — Rounded Aurora Glass Header */
+
+.site-header .nav-inner {
+  border-radius: 9999px;
+  padding-left: 26px;
+  padding-right: 12px;
+}
+
+.site-header .nav-cta {
+  border-radius: 9999px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.site-header .nav-links a {
+  border-radius: 9999px;
+}
+
+/* Shroud — Remove top header gap */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  top: 10;
+  padding-top: 0;
+}
+
+.site-header .nav-inner {
+  border-radius: 9999px;
+}
